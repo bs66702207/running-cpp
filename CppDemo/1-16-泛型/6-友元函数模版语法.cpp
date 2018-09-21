@@ -22,7 +22,7 @@ private:
 
 template<class T>
 Complex<T>::Complex( T r, T i )
-{ 
+{
 	Real = r ;  Image = i ; 
 }
 
