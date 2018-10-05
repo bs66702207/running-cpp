@@ -1,4 +1,4 @@
-//decltype不但可以获得准确的类型(不丢弃cv限定符)，而且不会跟原来变量有相同的表达式的值
+//decltype不但可以获得准确的类型(不丢弃cv限定符)，而且可以选择不跟原来变量有相同的表达式的值
 int x = 0;
 decltype(x) y = 1;			//y -> int
 decltype(x + y) z = 0;		//z -> int
