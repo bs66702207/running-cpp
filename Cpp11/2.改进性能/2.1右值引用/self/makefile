@@ -6,6 +6,7 @@ all:
 	$(GCC) 1-右值demo.cpp -o 1-右值demo_noelide.elf $(FLAG)
 	$(GCC) 2-右值11demo.cpp -o 2-右值11demo.elf
 	$(GCC) 2-右值11demo.cpp -o 2-右值11demo_noelide.elf $(FLAG)
+	$(GCC) 4-说明2.cpp -o 4-说明2.elf
 
 clean:
 	rm *.elf -f
