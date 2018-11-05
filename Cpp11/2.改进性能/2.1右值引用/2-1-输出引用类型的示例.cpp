@@ -39,7 +39,7 @@ void TestReference()
 {
 	std::string str = "test";
 	Func(str);//l
-	Func(std::move(str));//r
+	Func(std::move(str));//r，将一个左值转换成右值
 }
 
 int main()
