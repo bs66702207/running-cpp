@@ -7,6 +7,7 @@ all:
 	$(GCC) 2-3-MyString的移动构造函数和移动赋值函数.cpp -o 2-3.elf
 	$(GCC) 2-4-参数转发的实例.cpp -o 2-4.elf
 	$(GCC) 2-5-emplace_back和push_back的比较.cpp -o 2-5.elf
+	$(GCC) 2-6-无序容器的基本用法.cpp -o 2-6.elf
 
 clean:
 	rm *.elf -f
